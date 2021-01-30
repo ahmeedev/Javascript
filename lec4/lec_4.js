@@ -48,10 +48,21 @@ console.log('My DataType is : '+(typeof marks))
 
 
 function nameA(){
-
+console.log(`i'm in function`)
 }
 console.log('My DataType is : '+(typeof nameA))
 
 let date=new Date();
 console.log('My DataType is : '+(typeof date))
+
+
+
+
+// second type practice
+
+var a=``;
+console.log(typeof a);
+
+
+nameA();
 

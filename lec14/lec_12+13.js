@@ -15,9 +15,10 @@ let a=document.all;
 // a=document.images;
 
 let text='google';
-let b;
 
 console.log(document.links.length)
+
+let b;
 for(let i=0; i<document.links.length; i++){
     
     a=document.links[i].href;
@@ -30,11 +31,9 @@ for(let i=0; i<document.links.length; i++){
 console.log('this link contains google keyword')
 console.log(b);
 
-
-
-
-
 //var fs=require('fs');
+
+
 
 
 
